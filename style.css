@@ -1,0 +1,255 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-color:   hsl(0, 0%, 98%);
+    line-height: 40px;
+    font-family: 'Poppins', sans-serif;
+
+    
+   
+}
+
+.head_color {
+    color:  hsla(0, 3%, 77%, 0.938);
+    font-weight: 200;
+
+}
+h1 {
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+}
+
+h3 {
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+}
+
+.wrapper {
+    width: 1000px;
+    text-align: center;
+    margin: 2rem auto;
+    padding: 6rem auto;
+    
+            
+
+
+}
+
+
+.row {
+    display: flex;
+    align-items: center;
+    padding: 4rem auto;
+ 
+
+
+}
+
+p {
+    color:  hsla(0, 3%, 77%, 0.938);
+    font-size: 11px;
+    line-height: 24px;
+    word-spacing: 5px;
+    margin-top: 10px;
+
+}
+
+
+.box1 p {
+    color: hsla(0, 3%, 77%, 0.938);
+    background-color: white;
+    margin-top: 10px;
+    line-height: 15px;
+    margin-bottom: 35px;
+
+}
+
+.box2a p {
+    color: hsla(0, 3%, 77%, 0.938);
+    background-color: white;
+    margin-top: 8px;
+    line-height: 15px;
+    margin-bottom: 35px;
+}
+
+.box2b p {
+    color:  hsla(0, 3%, 77%, 0.938);
+    background-color: white;
+    margin-top: 10px;
+    line-height: 15px;
+    margin-bottom: 35px;
+}
+
+.box3 p {
+    color: hsla(0, 3%, 77%, 0.938);
+    background-color: white;
+    margin-top: 10px;
+    line-height: 15px;
+    margin-bottom: 35px;
+}
+
+
+
+
+
+.box1 { 
+    border-top: hsl(180, 62%, 55%) solid;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow:  5px 8px 8px hsl(0, 1%, 83%);
+    width: 300px;
+    height: 220px;
+    padding: 1.9rem;
+    margin-top: 15px;
+    text-align: left;
+    margin-right: 30px;
+
+
+}
+
+.box2a { 
+    border-top: hsl(0, 78%, 62%) solid;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow:  5px 8px 8px hsl(0, 1%, 83%, 0.993);
+    width: 300px;
+    height: 220px;
+    padding: 1.9rem;
+    margin-top: 20px;
+    text-align: left;
+    margin-right: 30px;
+
+
+}
+
+.box2b { 
+    border-top:  hsl(34, 97%, 64%) solid;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow:  5px 8px 8px hsl(0, 1%, 83%);
+    width: 300px;
+    height: 220px;
+    padding: 1.9rem;
+    margin-top: 20px;
+    text-align: left;
+    margin-right: 30px;
+}
+
+.box3 { 
+    border-top: hsl(212, 86%, 64%) solid;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow:  5px 8px 8px hsl(0, 1%, 83%);
+    width: 300px;
+    height: 220px;
+    padding: 1.9rem;
+    margin-top: 15px;
+    text-align: left;
+    margin-right: 30px;
+    
+
+}
+
+.img  {
+   display: flex;
+   justify-content: right;
+   padding-bottom: 1rem;
+   height: 60px;
+   
+
+   
+          
+}   
+
+
+@media only screen and (max-width: 1440px) and (min-width:805px){
+
+    .row {
+        display: flex;
+        align-items: center;
+        padding: 4rem auto;
+     
+    
+    
+    }
+
+
+} 
+
+
+@media only screen and (max-width: 768px) and (min-width: 0) {
+
+    .p_graph  { 
+        
+        font-size: 13px;
+        /* padding: 0 5rem; */
+
+        
+              
+    }
+
+    h1 {
+
+        font-size: 25px;
+        margin: 0;
+        line-height: 35px;
+    }
+
+    .wrapper {
+        flex-wrap: wrap;
+        width: 500px;
+        text-align: center;
+        margin: 3rem auto;
+        padding: 6rem auto;
+        
+                
+    
+    
+    }
+    
+    .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2rem auto;
+     
+    
+    
+    }
+
+
+} 
+
+.box1 {
+
+    max-width: 700px;
+    min-width: 300px;
+}
+
+.box2a {
+
+    max-width: 700px;
+    min-width: 300px;
+}
+
+.box2b {
+
+    max-width: 700px;
+    min-width: 300px;
+}
+
+.box3 {
+
+    max-width: 700px;
+    min-width: 300px;
+}
+
+
